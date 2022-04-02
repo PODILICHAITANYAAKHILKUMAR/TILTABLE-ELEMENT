@@ -1,0 +1,36 @@
+body{
+  font-family: poppins;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background: #F8F9FD;
+  padding-top: 8rem;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32rem;
+  height: 20rem;
+  background: linear-gradient(
+    60deg,
+    #8E36D6,
+    #D61F76,
+    #36d66b,
+    #d68d1f
+  );
+  transform: perspective(1000px);
+  transform-style: preserve-3d;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.20), 0 15px 12px rgba(0, 0, 0, 0.15);
+  transition: all 180ms ease-out;
+}
+
+.container h1 {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-shadow: 0 0 22px rgba(0, 0, 0, 0.6);
+  transform: translateZ(40px);
+}
